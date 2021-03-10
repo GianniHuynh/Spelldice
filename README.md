@@ -1,5 +1,7 @@
 # Spelldice
 
+<img src="assets/img/Spelldice.png">
+
 Spelldice is an modern and design RPG Dices simulator avaible on Windows and Linux !
 
 Credits :
