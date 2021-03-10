@@ -4,7 +4,7 @@
 
 Spelldice is an modern and design RPG Dices simulator avaible on Windows and Linux !
 
-<h1><strong>How to install ?</strong></h1>
+<h1><strong>Installation</strong></h1>
 
 <h3><strong>Windows :</strong></h3>
 - Spelldice v1.0 Portable version Windows  : https://drive.google.com/file/d/1t1v9YsdWL6IYlRYuihjpn5-402s24vb8/view?usp=sharing
@@ -21,6 +21,9 @@ Spelldice is an modern and design RPG Dices simulator avaible on Windows and Lin
 - HTML5/CSS3 -> Julien HUYNH https://github.com/JulienHuynh
 -</br>
 - JavaScript/Electron JS -> Gianni HUYNH https://github.com/GianniHuynh
+
+<h1><strong>Screenshot :</strong></h1>
+<img src="screenshot.png">
 
 You can modify the entire code as you want to create your own version of Spelldice !
 
