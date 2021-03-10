@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/logo-Spelldice.png"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Spelldice, dice simulator</title>
+  </head>
+  <body>
+    <main>
+      <div id="logo">
+        <img src="assets/img/Spelldice.png" alt="logo" >
+        <!--<svg data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 964.55 163.97"><defs><style>.cls-1,.cls-2{font-size:110px;font-family:Nunito-SemiBold, Nunito;font-weight:600;}.cls-1{fill:#dbb401;}.cls-2{fill:#1d1d1b;}.cls-3{fill:#0b0c0c;}.cls-4{fill:#20201f;}.cls-5{fill:#303031;}</style></defs><text class="cls-1" transform="translate(0 93.77)">SPELL</text><text class="cls-2" transform="translate(422.52 95.91)">ICE</text><polygon class="cls-3" points="366.77 55.52 342.04 6.31 341.8 104.24 366.77 55.52"/><polygon class="cls-4" points="415.73 55.76 366.77 55.52 341.8 104.24 415.73 55.76"/><polygon class="cls-5" points="342.04 6.31 415.73 55.76 366.77 55.52 342.04 6.31"/></svg>-->
+      </div>
+      <p id="Slogan">JUST SPELL IT.</p>
+      <section id="Selectdice">
+        <section id="bloc1">
+          <h2>SELECT YOUR DICE</h2>
+          <article>
+            <div>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice4();"
+              >
+                1D4
+              </button>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice6();"
+              >
+                1D6
+              </button>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice8();"
+              >
+                1D8
+              </button>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice10();"
+              >
+                D10
+              </button>
+            </div>
+            <div>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice12();"
+              >
+                D12
+              </button>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice20();"
+              >
+                D20
+              </button>
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDice100();"
+              >
+                D100
+              </button>
+
+
+            </div>
+            <section class="Randombutton">
+              <input type="text" name = "CustomDice" placeholder="Type the number of faces" id = "CustomD">
+              <button
+                class="favorite styled"
+                type="button"
+                onclick="spellDiceCustom();"
+              >
+                OK
+              </button>
+            </section>
+          </article>
+     
+        </section>
+
+        <aside id="bloc2">
+          <div id="previousDices">
+                <h2>PREVIOUS DICES</h2>                                                                                                
+              <article>
+            
+              <ul>
+                <li id="Case1"> </li> <!--Case 1-->
+                
+                <li id="Case2"> </li> <!--Case 2-->
+                
+                <li id="Case3"></li> <!--Case 3-->
+                
+                <li id="Case4"></li> <!--Case 4-->
+                
+                <li id="Case5"></li> <!--Case 5-->
+                
+                <li id="Case6"></li> <!--Case 6-->
+                
+              </ul>
+              </article>
+          </div>
+        </aside>
+      </section>
+
+    </main>
+  
+
+    
+    <script>
+
+     // Init of case 1
+    var case1 = document.getElementById("Case1");
+    case1.innerHTML = "- Empty -";
+
+    // Init of case 2
+    var case2 = document.getElementById("Case2");
+    case2.innerHTML = "- Empty -";
+
+    // Init of case 3
+    var case3 = document.getElementById("Case3");
+    case3.innerHTML = "- Empty -";
+
+    // Init of case 4
+    var case4 = document.getElementById("Case4");
+    case4.innerHTML = "- Empty -";
+
+    // Init of case 5
+    var case5 = document.getElementById("Case5");
+    case5.innerHTML = "- Empty -";
+
+    // Init of case 6
+    var case6 = document.getElementById("Case6");
+    case6.innerHTML = "- Empty -";
+
+      
+    </script>
+  </body>
+  <footer>
+    <h4>GITHUB</h4>
+    <a
+    href="https://github.com/users/GianniHuynh/projects/1"
+    target="_blank"
+    ><img id="Gitlogo" src="assets/img/Github.png" alt="Github"
+  ></a>
+  <h4>CREDITS</h4>
+  <p class="CREDITS">HTML5/CSS3 : Julien HUYNH</p>
+  <p class="CREDITS">JavaScript/Electron JS : Gianni HUYNH</p>
+  <p class="VERSION">Spelldice v1.0 (2021)</p>
+  </footer>
+</html>
